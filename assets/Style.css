@@ -1,0 +1,81 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+
+.btn_ubah, a{
+	background-color: #337ab7;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.btn_hapus, a {
+    background-color: #d9534f;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn_tambah, a {
+    background-color: purple;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.Reset, a {
+    background-color: orange;
+    padding: 0px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+div.ex2 {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+body {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	border-radius: 5px;
+}
+a.w3-btn[href*="exercise.asp"] {
+    margin: 10px 5px 0 0;
+}
+.w3-btn, .w3-btn:link, .w3-btn:visited {
+    color: #FFFFFF;
+    background-color: #4CAF50;
+}
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+
